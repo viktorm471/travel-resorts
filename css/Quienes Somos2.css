@@ -1,0 +1,47 @@
+
+.text1{
+    text-align: justify;
+    font-weight: 500;
+}
+.encabezado-welcome {
+    margin-top: 100px;
+    
+    width: 100%;
+    
+}
+
+.encabezado {
+    width: 100%;
+    height: 230px;
+    background-image: url(../imagenes/Palmera.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.titulo {
+    width: 50%;
+    height: 50%;
+    position:absolute;
+    margin-top: 90px;
+    margin-left: 40px;
+    font-family: 'Days One', sans-serif;
+    color: black;
+    text-shadow: 3px 0px 7px rgba(255, 255, 255, 0.5), 
+	  -3px 0px 7px rgba(255, 255, 255, 0.5), 
+	  0px 4px 7px rgba(255, 255, 255, 0.5);
+    
+}
+
+
+
+
+

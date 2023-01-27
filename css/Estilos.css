@@ -1,0 +1,96 @@
+.container {
+    font-family: 'Days One', sans-serif;
+}
+.textoimg p{
+    color: rgb(167, 186, 207);
+    text-align: justify;
+    width: 40%;
+    font-family: 'Days One', sans-serif;
+}
+.textoimg{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 90%;
+   
+}
+.imageninicial img{
+    border-radius: 10px;
+   
+}
+.imageninicial{
+    width: 100%;
+}
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+
+}
+.contenido{
+    display: flex;
+    flex-direction: row;
+    
+    margin: 30px 0 20px;
+}
+.boton{
+    border: 3px solid rgb(150,205,236);
+    background-color: rgb(150,205,236);
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    
+}
+.boton a{
+    text-decoration: none;
+    color: black;
+}
+.barra a{
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+    font-family: 'Days One', sans-serif;
+   
+}
+.barra li{
+    display: inline-block;
+    padding-top: 10px;
+}
+.informacion{
+    border: 1px solid gray;
+    background-color: rgb(230, 233, 236);
+}
+.barra nav{
+    border: 1px solid gray;
+    background-color: rgb(205,213,223);
+}
+.planesrelacionados img{
+    border-radius: 10px;
+   
+}
+.contenido2{
+    display: flex;
+    margin-bottom: 20px;
+}
+.planrel{
+    padding-top: 120px;
+    padding-left: 20px;
+}
+
+
+@media (max-width:850px){
+    /* .container{
+        width: 90%;
+    } */
+    .contenido{
+        flex-direction: column;
+    }
+    .textoimg{
+        align-items: center;
+        margin-top: 10px;
+    }
+    .contenido2{
+        flex-direction: column;
+    }
+}
